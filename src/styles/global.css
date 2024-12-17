@@ -1,3 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rubik+Mono+One&family=Shrikhand&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Monoton&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Unbounded:wght@200..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo {
+  font-family: "Shrikhand";
+}
+body {
+  font-family: "Poppins";
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+}
+
+.button a {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffc8dd;
+  display: block;
+  position: relative;
+  padding: 4px 14px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* text-shadow: 0px 1px 0px #000; */
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow: inset 0 1px 0 #754053, 0 10px 0 #754053;
+  -moz-box-shadow: inset 0 1px 0 #754053, 0 10px 0 #754053;
+  box-shadow: inset 0 1px 0 #754053, 0 10px 0 #754053;
+
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.button a:active {
+  top: 10px;
+  background-color: #ffafcc;
+
+  -webkit-box-shadow: inset 0 1px 0 #754053, inset 0 -3px 0 #754053;
+  -moz-box-shadow: inset 0 1px 0 #754053, inset 0 -3pxpx 0 #754053;
+  box-shadow: inset 0 1px 0 #754053, inset 0 -3px 0 #754053;
+}
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
