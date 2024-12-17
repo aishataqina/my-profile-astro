@@ -18,7 +18,7 @@ const Project = () => {
             ease: "easeInOut",
           }}
         > */}
-        <ProjectItem />
+        <ProjectItem client:load />
         {/* </motion.div> */}
       </div>
     </>

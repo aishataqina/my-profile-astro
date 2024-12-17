@@ -5,6 +5,12 @@ module.exports = {
     "./pages/**/*.{astro,html,js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      xs: "480px",
+      sm: "768px",
+      md: "1024px",
+      lg: "1200px",
+    },
     extend: {
       colors: {
         "primary-pink": "#ffafcc",
