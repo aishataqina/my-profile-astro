@@ -12,7 +12,7 @@ const About = () => {
     >
       {/* biodata */}
       <div className="lg:w-1/2 flex flex-col gap-5">
-        <div className="lg:text-justify text-center tracking-wider">
+        <div className="lg:text-justify text-center tracking-wider mt-3">
           <h1 className="logo font-extrabold md:text-7xl sm:text-6xl xs:text-4xl text-4xl ">
             Hello, I&apos;m
           </h1>

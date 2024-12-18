@@ -143,7 +143,10 @@ const ProjectItem = () => {
       {items.map((item) => (
         <div
           key={item.id}
-          className="flex flex-col items-center justify-center text-center gap-2 cursor-pointer"
+          className="flex flex-col items-center justify-center text-center gap-2 cursor-pointer transition-all 
+    duration-300 
+    hover:text-[#7b2cbf] 
+     hover:drop-shadow-[0_0_10px_rgba(123,44,191,0.5)]"
           onClick={() => showModal(item)}
         >
           <img src={item.imgSrc.src} alt={item.name} className="sm:w-32 w-20" />

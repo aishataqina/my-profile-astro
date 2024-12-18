@@ -3,11 +3,15 @@ import me from "../assets/aisha.png";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#6ac9cb] border-t-4 border-gray-400 md:px-16 px-10 py-5">
-        <div className=" flex justify-between items-center text-center">
-          <img src={me.src} alt="" className="w-32 md:w-52" />
+      <footer className="bg-[#6ac9cb] border-t-4 border-primary-pink md:px-16 px-10 py-3">
+        <div className="flex justify-between items-center text-center">
+          <img src={me.src} alt="" className="w-32 md:w-40" />
           <div className="flex justify-between items-center text-center gap-3">
-            <a href="https://github.com/aishataqina">
+            <a
+              href="https://github.com/aishataqina"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -24,7 +28,11 @@ export default function Footer() {
                 ></path>
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/aisha-taqina-7909572b7/">
+            <a
+              href="https://www.linkedin.com/in/aisha-taqina-7909572b7/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -41,7 +49,11 @@ export default function Footer() {
                 ></path>
               </svg>
             </a>
-            <a href="https://www.instagram.com/aishatqn/">
+            <a
+              href="https://www.instagram.com/aishatqn/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

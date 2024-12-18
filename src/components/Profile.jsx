@@ -1,11 +1,11 @@
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 import bg2 from "../assets/bg2.jpg";
 import me from "../assets/akuuu.png";
 import react from "../assets/react.png";
 import js from "../assets/js.png";
 import tailwind from "../assets/tailwind.png";
 import vscode from "../assets/vscode.png";
-import { motion } from "framer-motion";
-import { TypeAnimation } from "react-type-animation";
 
 const Profile = () => {
   return (

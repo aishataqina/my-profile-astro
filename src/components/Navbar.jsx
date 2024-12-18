@@ -15,12 +15,16 @@ const Navbar = () => {
             smooth={true}
             offset={50}
             duration={500}
-            className="tracking-wider text-sm sm:text-lg"
+            className="relative tracking-wider text-sm sm:text-base hover:text-[#ffffff] after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-[#ffffff] after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300 hover:cursor-pointer"
           >
             About Me
           </Link>
           <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
-            <img src={me.src} alt="" className="w-32 md:w-52" />
+            <img
+              src={me.src}
+              alt=""
+              className="w-32 md:w-40 hover:cursor-pointer"
+            />
           </Link>
           <Link
             to="project"
@@ -28,7 +32,7 @@ const Navbar = () => {
             smooth={true}
             offset={50}
             duration={500}
-            className=" tracking-wider text-sm sm:text-lg"
+            className="relative tracking-wider text-sm sm:text-base hover:text-[#ffffff] after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-[#ffffff] after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300 hover:cursor-pointer"
           >
             Project
           </Link>
